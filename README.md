@@ -2,29 +2,29 @@
 
 Ứng dụng web du lịch toàn diện cho phép người dùng khám phá, đặt chỗ và thanh toán các tour du lịch. Bao gồm dashboard admin quản lý đầy đủ.
 
-## 🎯 Tính năng chính
+## Tính năng chính
 
 ### Người dùng
-- ✅ Đăng ký, đăng nhập, xác minh email
-- ✅ Quên mật khẩu và đặt lại mật khẩu
-- ✅ Duyệt danh sách tour với bộ lọc theo danh mục
-- ✅ Xem chi tiết tour với lịch trình, hình ảnh
-- ✅ Đặt tour với nhiều loại khách (người lớn/trẻ em)
-- ✅ Xem lịch sử booking và trạng thái thanh toán
-- ✅ Tạo thanh toán cho booking
-- ✅ Đánh giá và bình luận tour
+- Đăng ký, đăng nhập, xác minh email
+- Quên mật khẩu và đặt lại mật khẩu
+- Duyệt danh sách tour với bộ lọc theo danh mục
+- Xem chi tiết tour với lịch trình, hình ảnh
+- Đặt tour với nhiều loại khách (người lớn/trẻ em)
+- Xem lịch sử booking và trạng thái thanh toán
+- Tạo thanh toán cho booking
+- Đánh giá và bình luận tour
 
 ### Admin
-- ✅ Quản lý danh mục tour (CRUD)
-- ✅ Quản lý điểm đến (CRUD)
-- ✅ Quản lý tour (CRUD) với hình ảnh, lịch trình, schedule
-- ✅ Quản lý lịch trình ngày (itinerary)
-- ✅ Quản lý hình ảnh tour
-- ✅ Quản lý lịch khởi hành (schedule) và giá cả
-- ✅ Xem và xóa reviews
-- ✅ Xem lịch sử thanh toán
+- Quản lý danh mục tour (CRUD)
+- Quản lý điểm đến (CRUD)
+- Quản lý tour (CRUD) với hình ảnh, lịch trình, schedule
+- Quản lý lịch trình ngày (itinerary)
+- Quản lý hình ảnh tour
+- Quản lý lịch khởi hành (schedule) và giá cả
+- Xem và xóa reviews
+- Xem lịch sử thanh toán
 
-## 🛠️ Công nghệ sử dụng
+## Công nghệ sử dụng
 
 ### Frontend
 - **React** 19 - UI library
@@ -41,7 +41,7 @@
 - **Multer** - File upload
 - **mysql2** - Database driver
 
-## 📋 Cấu trúc thư mục
+## Cấu trúc thư mục
 
 ```
 Travel_web/
@@ -70,7 +70,7 @@ Travel_web/
 └── README.md
 ```
 
-## 🚀 Hướng dẫn cài đặt
+## Hướng dẫn cài đặt
 
 ### Yêu cầu
 - Node.js 16+
@@ -125,7 +125,7 @@ npm run dev
 
 Frontend chạy tại: `http://localhost:5173`
 
-## 🔐 Biến môi trường
+## Biến môi trường
 
 ### Server (.env)
 ```env
@@ -151,7 +151,7 @@ MAIL_PASS=your_app_password
 MAIL_FROM=your_email@gmail.com
 ```
 
-## 👤 Tài khoản Test
+## Tài khoản Test
 
 ### Admin
 ```
@@ -175,7 +175,7 @@ Email: levanc@example.com
 Password: 123456
 ```
 
-## 📊 API Documentation
+## API Documentation
 
 ### Public APIs
 ```
@@ -223,7 +223,7 @@ POST   /api/admin/tours/:id/images      - Thêm hình ảnh
 # Tương tự cho destinations, categories, reviews, payments
 ```
 
-## 🎨 Các trang chính
+## Các trang chính
 
 ### Public Pages
 - `/` - Trang chủ
@@ -251,7 +251,7 @@ POST   /api/admin/tours/:id/images      - Thêm hình ảnh
 ### Admin Pages (cần admin role)
 - `/admin` - Admin Dashboard
 
-## 📦 Dữ liệu mẫu
+## Dữ liệu mẫu
 
 ### Tours
 - Da Nang Beach Escape
@@ -284,7 +284,7 @@ POST   /api/admin/tours/:id/images      - Thêm hình ảnh
 - Food & Wine
 - Wellness
 
-## 🧪 Testing
+## Testing
 
 ### Lint Frontend
 ```bash
@@ -306,7 +306,7 @@ SELECT * FROM tours;
 SELECT * FROM bookings;
 ```
 
-## 📝 Ghi chú phát triển
+## Ghi chú phát triển
 
 - **Database**: Foreign keys được enable, constraints kiểm tra dữ liệu
 - **Auth**: JWT tokens hết hạn sau 7 ngày
@@ -314,7 +314,7 @@ SELECT * FROM bookings;
 - **Email**: Nodemailer gửi email xác minh và reset password
 - **Admin**: Role-based access control (RBAC)
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### MySQL connection error
 ```
@@ -333,11 +333,11 @@ Thay đổi PORT trong .env (server)
 hoặc dùng --port flag (client)
 ```
 
-## 📄 License
+## License
 
 MIT License - Tự do sử dụng cho mục đích cá nhân và thương mại.
 
-## ✉️ Liên hệ
+## Liên hệ
 
 Nếu có câu hỏi hoặc phản hồi, vui lòng liên hệ:
 - Email: a41673vuquangtung@gmail.com
