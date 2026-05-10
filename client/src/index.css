@@ -1,0 +1,108 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #2f241b;
+  background: #f5f0e9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: #0f766e;
+  --color-heading: #1f2937;
+  --color-body: #4b5563;
+  --color-muted: #6b7280;
+  --color-surface: #ffffff;
+  --color-surface-alt: #fbf7f2;
+  --color-border: #e7ddd1;
+  --color-border-strong: #cbb9a3;
+  --shadow-soft: 0 18px 40px rgba(80, 58, 34, 0.08);
+  --container-width: 1180px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--color-body);
+  background:
+    linear-gradient(180deg, #f5f0e9 0%, #f8f4ef 45%, #f3ede5 100%);
+}
+
+body,
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.container {
+  width: min(calc(100% - 32px), var(--container-width));
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-heading);
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: clamp(42px, 7vw, 76px);
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}

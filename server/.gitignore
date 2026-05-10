@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Uploads và file do người dùng tạo
+uploads/
+
+# Logs
+npm-debug.log*
+*.log

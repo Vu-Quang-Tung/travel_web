@@ -1,0 +1,14 @@
+/* Context chia se trang thai dang nhap trong toan bo frontend */
+import { createContext, useContext } from "react";
+
+export const AuthContext = createContext(null);
+
+export function useAuth() {
+  const context = useContext(AuthContext);
+
+  if (!context) {
+    throw new Error("useAuth must be used within AuthProvider");
+  }
+
+  return context;
+}
